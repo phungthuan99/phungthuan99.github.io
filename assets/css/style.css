@@ -37,12 +37,15 @@ body {
 }
 .sidebar .avatar{
   text-align: center;
-  margin-top:30px;
+  height: 80px;
 }
 .sidebar .avatar img{
   width: 150px;
   border-radius: 50%;
   border: 2px solid rgb(72, 0, 139);
+  position: relative;
+  top: -80px;
+  background: #9f9;
 }
 .information{
   width: 100%;
