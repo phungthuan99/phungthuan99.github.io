@@ -20,6 +20,9 @@ body {
 .header .hd-top {
   text-align: center;
 }
+.hd-top img{
+  width: 100%;
+}
 .hd-top h1 {
   color: #fff;
   padding-top: 20px;
@@ -49,8 +52,20 @@ body {
 }
 .information{
   width: 100%;
-  background-color: #f09;
+  /* background-color: #f09; */
   height: 300px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.profile span{
+  padding: 10px;
+}
+.profile span i{
+  font-size: 18px;
+  padding-right: 20px;
 }
 .menu-content{
   display:flex;
@@ -72,6 +87,7 @@ nav.menu ul>li{
   width: 25%;
   background-color: rgb(51, 0, 146);
   text-align: center;
+  cursor: pointer;
 }
 nav.menu ul>li:hover{
   background-color: rgb(70, 0, 199);
@@ -90,8 +106,26 @@ nav.menu ul>li:nth-child(3){
   
   border-right: 1px solid #000;
 }
-.content{
+.content-section{
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   height: 550px;
+}
+.content-section .content{
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.menu-content .content-section .with-me{
+  display: block;
+  background-color: red;
+}
+.content-section .portfolio{
+  background-color: green;
+}
+.content-section .works{
+  background-color: blue;
+}
+.content-section .social-network{
+  background-color: yellow;
 }
