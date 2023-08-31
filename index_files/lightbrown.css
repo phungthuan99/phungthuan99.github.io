@@ -1,0 +1,69 @@
+.btn.btn-primary, input.btn-primary[type=submit]{
+    background: #CC9966 !important;
+    color: #fff !important;
+}
+.product-box .sale-flash{
+    background-color: #CC9966 !important;
+}
+.btn.btn-gray:hover, input.btn-gray[type=submit]:hover{
+    background: #CC9966 !important;
+    color: #fff !important;
+}
+.btn.btn-primary:hover, input.btn-primary[type=submit]:hover{
+    background: #b7865c !important;
+    color: #fff !important;
+}
+.product-box .price-box .special-price span{
+    color: #CC9966 !important;
+}
+.details-product .details-pro .price-box .special-price span{
+    color: #CC9966 !important;
+}
+.top-cart-contain .heading-cart .cartCount, footer .back-to-top, .topbar-mobile.hidden-lg.hidden-md, .icon-cart-mobile.hidden-md.hidden-lg.f-left.absolute .cartCount{
+    background: #CC9966 !important;
+}
+.breadcrumb li strong span{
+    color: #CC9966 !important;
+}
+.swatch input:checked+label{
+    background-color: #CC9966 !important;
+    border-color: #CC9966 !important;
+    color: #fff !important;
+}
+.owl-carousel .owl-nav .owl-prev:hover:before,
+.owl-carousel .owl-nav .owl-prev:hover:after,
+.owl-carousel .owl-nav .owl-next:hover:before,
+.owl-carousel .owl-nav .owl-next:hover:after{
+    color: #CC9966 !important;
+    border-color: #CC9966 !important;
+}
+.aside-item.aside-mini-list-product .product-mini-item .product-price{
+    color: #CC9966 !important;
+}
+header nav .nav-item:hover>a{
+    color: #CC9966 !important;
+}
+header nav .nav-item .dropdown-menu li a:hover{
+    color: #CC9966 !important;
+}
+#popup-cart-desktop .title-popup-cart i{
+    color: #CC9966 !important;
+}
+#popup-cart-desktop .content-popup-cart .tfoot-popup .tfoot-popup-2 .button.btn-proceed-checkout{
+    background: #CC9966 !important;
+}
+.close-window .fa{
+    color: #CC9966 !important;
+}
+#popup-cart-desktop .content-popup-cart .tfoot-popup .tfoot-popup-1 .popup-total p .total-price{
+    color: #CC9966 !important;
+}
+.topbar a:hover{
+    color: #CC9966 !important;
+}
+.panel-group-details-product .panel-heading .panel-title a:before{
+    background: #CC9966 !important;
+}
+a:hover{
+    color: #CC9966 !important;
+}
