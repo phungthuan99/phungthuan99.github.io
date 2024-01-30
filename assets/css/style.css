@@ -17,13 +17,26 @@
 .item-le{
   width: 15px;
   height: 15px;
-  background: red;
+  background: blue;
   border-radius: 50%;
 }
 
 .item-chan{
   width: 15px;
   height: 15px;
-  background: blue;
+  background: red;
+  border-radius: 50%;
+}
+.item-xap{
+  
+  width: 15px;
+  height: 15px;
+  background: #17a2b8;
+  border-radius: 50%;
+}
+.item-tu{
+  width: 15px;
+  height: 15px;
+  background: #ffc107;
   border-radius: 50%;
 }
