@@ -3,129 +3,27 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body {
-  font-family: Tahoma;
+
+.bang-cau{
+  height: 200px;
 }
-.container {
-  background-color: rgb(21, 5, 92);
-  width: 100%;
-  max-width: 1440px;
-  min-height: 100vh;
-  margin: 0px auto;
+
+.item{
+  width: 18px;
+  height: 18px;
+
 }
-.header .header-main {
-  width: 100%;
-  text-align: center;
-}
-.header .hd-top {
-  text-align: center;
-}
-.hd-top img{
-  width: 100%;
-}
-.hd-top h1 {
-  color: #fff;
-  padding-top: 20px;
-}
-.header-sidebar-menu{
-  width: 100%;
-  background-color: #eee;
-  height: auto;
-  display:flex;
-}
-.header-sidebar-menu .sidebar{
-  width: 20%;
-  background-color: #ccc;
-  height: 600px;
-}
-.sidebar .avatar{
-  text-align: center;
-  height: 80px;
-}
-.sidebar .avatar img{
-  width: 150px;
+
+.item-le{
+  width: 15px;
+  height: 15px;
+  background: red;
   border-radius: 50%;
-  border: 2px solid rgb(72, 0, 139);
-  position: relative;
-  top: -80px;
-  background: #9f9;
 }
-.information{
-  width: 100%;
-  /* background-color: #f09; */
-  height: 300px;
-}
-.profile {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-}
-.profile span{
-  padding: 10px;
-}
-.profile span i{
-  font-size: 18px;
-  padding-right: 20px;
-}
-.menu-content{
-  display:flex;
-  width: 80%;
-  flex-direction: column;
-}
-/* nav  */
-nav.menu{
-  width: 100%;
-  background-color: #fff;
-}
-nav.menu ul{
-  list-style-type: none;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  display: flex;
-}
-nav.menu ul>li{
-  width: 25%;
-  background-color: rgb(51, 0, 146);
-  text-align: center;
-  cursor: pointer;
-}
-nav.menu ul>li:hover{
-  background-color: rgb(70, 0, 199);
-}
-nav.menu ul>li>a{
-  text-decoration: none;
-  font-size: 22px;
-  color: #ffffff;
-}
-nav.menu ul>li>a:hover{
-  color:  rgb(202, 202, 202);
-}
-nav.menu ul>li:first-child,
-nav.menu ul>li:nth-child(2),
-nav.menu ul>li:nth-child(3){
-  
-  border-right: 1px solid #000;
-}
-.content-section{
-  width: 100%;
-  /* background-color: red; */
-  height: 550px;
-}
-.content-section .content{
-  display: none;
-  width: 100%;
-  height: 100%;
-}
-.menu-content .content-section .with-me{
-  display: block;
-  background-color: red;
-}
-.content-section .portfolio{
-  background-color: green;
-}
-.content-section .works{
-  background-color: blue;
-}
-.content-section .social-network{
-  background-color: yellow;
+
+.item-chan{
+  width: 15px;
+  height: 15px;
+  background: blue;
+  border-radius: 50%;
 }
