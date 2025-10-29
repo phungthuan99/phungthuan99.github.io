@@ -7,6 +7,182 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
+    <style>
+        /* Thiết lập chung */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f4f8; /* Nền nhẹ nhàng */
+    text-align: center;
+}
+
+/* Phần Hero (Tâm điểm của Landing Page) */
+.landing-hero {
+    min-height: 100vh; /* Chiếm toàn bộ chiều cao màn hình */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #ffffff 0%, #e0eafc 100%); /* Hiệu ứng nền nhẹ */
+}
+
+.hero-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
+    border: 5px solid #3498db; /* Viền nổi bật */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.greeting {
+    color: #7f8c8d;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #2c3e50;
+    margin: 0 0 10px 0;
+    line-height: 1.1;
+}
+
+.highlight-text {
+    color: #e74c3c; /* Màu nhấn chính */
+}
+
+.sub-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #3498db; /* Màu nhấn phụ */
+    margin: 0 0 25px 0;
+}
+
+.summary-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Nút CTA */
+.cta-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: 2px solid transparent; /* Chuẩn bị cho hiệu ứng hover */
+}
+
+.primary {
+    background-color: #e74c3c; /* Màu CTA chính */
+    color: white;
+}
+
+.primary:hover {
+    background-color: #c0392b;
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+}
+
+.secondary {
+    background-color: transparent;
+    color: #3498db;
+    border-color: #3498db;
+}
+
+.secondary:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Liên kết xã hội */
+.social-links {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.social-links a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Phần Kỹ Năng */
+.skills-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-top: 1px solid #eee;
+}
+
+.skills-section h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.skill-tags span {
+    display: inline-block;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: #34495e;
+    color: #ecf0f1;
+    font-size: 0.8rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .main-title {
+        font-size: 2.5rem;
+    }
+    .sub-title {
+        font-size: 1.2rem;
+    }
+    .cta-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+    </style>
 <body>
 
     <main class="landing-hero">
