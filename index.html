@@ -1,51 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="vi">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - [Tên Của Bạn]</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="container">
-        <div class="bang-cau row border border-danger">
-            <div class="col-12 p-1 add-here">
+
+    <main class="landing-hero">
+        <div class="hero-container">
+            <img src="avatar.jpg" alt="Ảnh Profile Chất Lượng Cao" class="profile-photo">
+            
+            <p class="greeting">XIN CHÀO, TÔI LÀ...</p>
+            
+            <h1 class="main-title">
+                <span class="highlight-text">[Tên Đầy Đủ Của Bạn]</span>
+            </h1>
+
+            <h2 class="sub-title">
+                [Vị Trí Của Bạn], chuyên về [Lĩnh Vực Chính].
+            </h2>
+            
+            <p class="summary-text">
+                Với [X] năm kinh nghiệm trong [Công nghệ/Kỹ năng], tôi tập trung vào việc tạo ra các giải pháp [Tính từ như: đột phá, hiệu quả, thân thiện]. Mục tiêu của tôi là [Mục tiêu cụ thể].
+            </p>
+
+            <div class="cta-group">
+                <a href="#portfolio" class="cta-button primary">
+                    Xem Portfolio (Dự Án)
+                </a>
+                <a href="mailto:emailcuaban@example.com" class="cta-button secondary">
+                    Liên Hệ Ngay
+                </a>
             </div>
+
+            <div class="social-links">
+                <a href="https://linkedin.com/in/ten-cua-ban" target="_blank">LinkedIn</a>
+                |
+                <a href="https://github.com/ten-cua-ban" target="_blank">GitHub</a>
+                |
+                <a href="link-khac" target="_blank">Medium/Blog</a>
+            </div>
+
         </div>
-        <div class="row them-cau pt-2">
-            <div class="col-3">
-                <div class="col-12 btn btn-sm btn-danger">
-                    <label for="chan">Change</label>
-                    <input type="radio" name="pick" value="chan" id="chan" />
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="col-12 btn btn-sm btn-primary">
-                    <label style="width: 100%" for="le">Phong xương</label>
-                    <input type="radio" name="pick" value="le" id="le" />
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="col-12 btn btn-sm btn-info">
-                    <label style="width: 100%" for="xap">Xuong</label>
-                    <input type="radio" name="pick" value="xap" id="xap" />
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="col-12 btn btn-sm btn-warning">
-                    <label style="width: 100%" for="tu">TU</label>
-                    <input type="radio" name="pick" value="tu" id="tu" />
-                </div>
-            </div>
-            <div class="col-12 d-flex justify-content-center mt-5">
-                <div class="btn btn-success add">THEM</div>
-            </div>
+    </main>
+
+    <section id="skills" class="skills-section">
+        <h3>Các Kỹ Năng Nổi Bật</h3>
+        <div class="skill-tags">
+            <span>HTML5 & CSS3</span>
+            <span>JavaScript (React/Vue/Angular)</span>
+            <span>[Kỹ năng 3]</span>
+            <span>[Kỹ năng 4]</span>
         </div>
-    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Tên Của Bạn]. Được xây dựng với đam mê.</p>
+    </footer>
+
 </body>
-<script src="assets/js/jquery-3.7.1.slim.js"></script>
-<script src="assets/js/index.js"></script>
 </html>
