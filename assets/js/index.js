@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $('#openModalBtn').on('click',function(){
-        $("#myModal").show();
+        $('#myModal').show();
     })
     $('.close').on('click',function(){
-        $("#myModal").hide();
+        $('#myModal').hide();
     })
 })
