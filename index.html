@@ -117,6 +117,55 @@ body {
     background-color: #3498db;
     color: white;
 }
+/*  modal */
+/* Kiểu cho modal (theo mặc định ẩn) */
+.modal {
+  display: none; /* Ẩn theo mặc định */
+  position: fixed; /* Giữ nguyên vị trí khi cuộn */
+  z-index: 1000; /* Đảm bảo modal nằm trên các phần tử khác */
+  left: 0;
+  top: 0;
+  width: 100%; /* Chiều rộng đầy đủ */
+  height: 100%; /* Chiều cao đầy đủ */
+  overflow: auto; /* Cho phép cuộn nếu nội dung quá dài */
+  background-color: rgb(0,0,0); /* Màu nền đen */
+  background-color: rgba(0,0,0,0.4); /* Màu nền với độ mờ (lớp phủ) */
+}
+
+/* Kiểu cho khung nội dung của modal */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% từ trên xuống và căn giữa theo chiều ngang */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Có thể điều chỉnh chiều rộng */
+  max-width: 500px; /* Chiều rộng tối đa */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Hiệu ứng chuyển động (tùy chọn) */
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* Nút đóng (x) */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* Liên kết xã hội */
 .social-links {
@@ -205,7 +254,7 @@ footer {
             </p>
 
             <div class="cta-group">
-                <a href="#portfolio" class="cta-button primary">
+                <a id="openModalBtn" class="cta-button primary">
                     Xem Portfolio
                 </a>
                 <a href="mailto:anhthuan021199@gmail.com" class="cta-button secondary">
@@ -223,6 +272,17 @@ footer {
 
         </div>
     </main>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Tiêu đề Modal</h2>
+    <p>Đây là nội dung của hộp thoại modal.</p>
+    <p>Bạn có thể đặt bất kỳ nội dung nào ở đây.</p>
+  </div>
+
+</div>
 
     <section id="skills" class="skills-section">
         <h3>Các Sở Trường Nổi Bật</h3>
